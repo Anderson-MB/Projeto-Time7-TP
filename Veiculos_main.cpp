@@ -9,9 +9,11 @@ using namespace std;
 
 int main(){
 
+    setlocale(LC_ALL,"portuguese");
+
     Veiculos veiculo(1, "Azul", "ABC123", 25000.0, "Carro", 12345, 2023, "Gasolina");
 
-	cout << "Descrição: " << veiculo.getDescricao() << endl;
+    cout << "Veiculo: " << veiculo.getDescricao() << endl;
     cout << "Quantidade: " << veiculo.getQuantidade() << endl;
     cout << "Cor: " << veiculo.getCor() << endl;
     cout << "Placa: " << veiculo.getPlaca() << endl;

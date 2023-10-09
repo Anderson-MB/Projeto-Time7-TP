@@ -1,8 +1,6 @@
 #ifndef VEICULOS_H
 #define VEICULOS_H
 
-#include <string>
-
 class Veiculos{
 	
 	public:
